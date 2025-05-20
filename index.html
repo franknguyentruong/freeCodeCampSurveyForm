@@ -1,0 +1,73 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+    <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+    <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+    <label id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Enter your age" required/></label>
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown">
+      <option disabled selected value>Select current role</option>
+      <option value="student">Student</option>
+      <option value="job">Full Time Job</option>
+      <option value="learner">Full Time Learner</option>
+      <option value="prefNo">Prefer not to say</option>
+      <option value="other">Other</option>
+      
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <label><input name="user-rec" value="def" type="radio"/>Definitely</label>
+    <label><input name="user-rec" value="maybe" type="radio"/>Maybe</label>
+    <label><input name="user-rec" value="not-sure" type="radio"/>Not sure</label>
+
+    <p>What is your favorite feature of freeCodeCamp?</p>
+    <select>
+      <option disabled selected value>Select an option</option>
+      <option>Challenges</option>
+      <option>Projects</option>
+      <option>Community</option>
+      <option>Open Source</option>
+      
+    </select>
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <label><input 
+    value="frnt-nd-prjcts"
+    type="checkbox"/>Front-End Projects</label>
+    <label><input value="bck-nd-prjcts"
+    type="checkbox"/>Back-End Projects</label>
+    <label><input value="dt-Vslztn"
+    type="checkbox"/>Data Visualization</label>
+    <label><input value="Chllngs"
+    type="checkbox"/>Challenges</label>
+    <label><input value="pn-Src-Cmmnty"
+    type="checkbox"/>Open Source Community</label>
+    <label><input value="Gter-Hlp-Rms" 
+    type="checkbox"/>Giiter Help Rooms</label>
+    <label><input value="vds"
+    type="checkbox"/>Videos</label>
+    <label><input value="meetups"
+    type="checkbox"/>City Meetups</label>
+    <label><input value="wiki"
+    type="checkbox"/>Wiki</label>
+    <label><input value="forums"
+    type="checkbox"/>Forum</label>
+    <label><input value="add-courses"
+    type="checkbox"/>Additional Courses</label>
+    <p>Any comments or suggestions?</p>
+    <textarea placeholder="Enter your comment here..."></textarea>
+  <button id="submit">Submit</button>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
